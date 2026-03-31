@@ -22,7 +22,7 @@ def consultar_lista_estudiante(estudiante):
     
     # Table header with fixed widths
     print(f"\n{'ID':<20} | {'name':<10} | {'edad':<10} | {'curso':<10} | {'estado':<10}")
-    print("-" * 45)
+    print("-" * 70)
     
     for p in estudiante:
         # :>8.2f formats the price with 2 decimals and aligns it to the right
